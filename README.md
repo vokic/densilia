@@ -1,3 +1,5 @@
+## About
+
 I approached this task with finding a reusable solution to implement in various websites regardless of their framework.
 
 The solution I was exploring is **Angular Elements** (self contained standalone component that can be used outside Angular app, without the requirement of the app to be in made with Angular or to require complete Angular framework.
@@ -18,7 +20,9 @@ The idea is that the menu cannot be different in size, shape etc. It should be c
 
 Also I would consider implementing Densilia logo somewhere.
 
-Here is the preview, also I have uploaded the video:
+## Preview
+
+Also I have uploaded the video: https://drive.google.com/file/d/1EPfrj95bWSQl1Cznr5YOj4Aeqjymtd5H/view
 
 ![KUMiXkU](https://i.imgur.com/KUMiXkU.png)
 
