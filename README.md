@@ -1,27 +1,32 @@
-# Dens
+I approached this task with finding a reusable solution to implement in various websites regardless of their framework.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+The solution I was exploring is **Angular Elements** (self contained standalone component that can be used outside Angular app, without the requirement of the app to be in made with Angular or to require complete Angular framework.
 
-## Development server
+I’ve created a set of styles for every element, whos properties come from API backend that is set up for each client (practice), for example:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+*	Button color
+*	Button hover color
+*	Button icon and label color
+*	Menu background color
 
-## Code scaffolding
+Every property will receive it’s value in a form of .json response that would be matched to the property.
+Then the file would be bundeled and reused in the client side.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The frame should be the same everywhere, and the client would have various options to choose from to decorate the menu. Options would be set up in advance. We could also offer consultation for a design to match their brand colors.
 
-## Build
+The idea is that the menu cannot be different in size, shape etc. It should be consistent across all websites, only colors should be customizable, initially on setup. Client cannot style it on his part.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Also I would consider implementing Densilia logo somewhere.
 
-## Running unit tests
+Here is the preview, also I have uploaded the video:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![KUMiXkU](https://i.imgur.com/KUMiXkU.png)
 
-## Running end-to-end tests
+![W4Lurg0](https://i.imgur.com/W4Lurg0.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![wHbNOpL](https://i.imgur.com/wHbNOpL.png)
 
-## Further help
+![VL9wJ5a](https://i.imgur.com/VL9wJ5a.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
