@@ -11,8 +11,7 @@ I’ve created a set of styles for every element, whos properties come from API 
 *	Button icon and label color
 *	Menu background color
 
-Every property will receive it’s value in a form of .json response that would be matched to the property.
-Then the file would be bundeled and reused in the client side.
+Every property will receive it’s value in a form of .json response that would be matched to the property. Then the file would be bundeled and reused in the client side. In the video I generate a bundle script file that will contain all the necessary configuration for one client. Then I load it in a dummy website.
 
 The frame should be the same everywhere, and the client would have various options to choose from to decorate the menu. Options would be set up in advance. We could also offer consultation for a design to match their brand colors.
 
